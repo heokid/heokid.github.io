@@ -145,7 +145,6 @@
   }
 
   if (document.readyState === "complete") {
-    console.log('korv');
     ExpoSnack.initialize();
   } else {
     document.addEventListener('readystatechange', function() {
