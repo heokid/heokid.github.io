@@ -1,0 +1,90 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Bara Bajare",
+      "slug": "barabajare",
+      "tech": "React Native, Expo, Drizzle",
+      "description": "React Native App that contains a Newsfeed, a Podcast player and also displays upcoming games for the best football team in the world :)",
+      "previewImage": "/images/barabajare/barabajare2.png",
+      "images": [
+        "/images/barabajare/barabajare1.png",
+        "/images/barabajare/barabajare2.png",
+        "/images/barabajare/barabajare4.png",
+        "/images/barabajare/barabajare3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pull To Refresh",
+      "slug": "pulltorefresh",
+      "tech": "React Native, Expo, React Native Chart Kit",
+      "description": "A quick POC to learn about pull to refresh functionality and charts in a React Native app",
+      "type": "snack",
+      "snackId": "@heokid/pulltorefresh",
+      "previewImage": "/images/abitfit.jpg",
+      "images": [
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Music Player UI",
+      "slug": "mpui",
+      "tech": "React Native, Expo",
+      "description": "A small demo to learn about the basics of Expo and React Native",
+      "type": "snack",
+      "snackId": "@heokid/mpui",
+      "previewImage": "/images/mpui.png",
+      "images": [
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hogstomp",
+      "slug": "hogstomp",
+      "tech": "React Native, Expo, Skia, WebSockets",
+      "description": "A game for smart-tv's with a companion app to use as controller",
+      "previewImage": "/images/hogstomp.png",
+      "images": [
+        "/images/hogstomp/hogstomp1.png",
+        "/images/hogstomp/hogstomp3.gif"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Blog Platform",
+      "slug": "blogplatform",
+      "tech": "React, SCSS, Node.js",
+      "description": "A platform for quick creation of blogs/hompages",
+      "previewImage": "/images/blog.png",
+      "images": [
+        "/images/blog/blog1.png",
+        "/images/blog/blog2.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Placeholder",
+      "url": "john@example.com",
+      "tech": "Scss, JSX",
+      "description": "A simple UI kit",
+      "type": "placeholder"
+    },
+    {
+      "id": 7,
+      "name": "Placeholder",
+      "url": "john@example.com",
+      "tech": "Scss, JSX",
+      "description": "A simple UI kit",
+      "type": "placeholder"
+    },
+    {
+      "id": 8,
+      "name": "Placeholder",
+      "url": "john@example.com",
+      "tech": "Scss, JSX",
+      "description": "A simple UI kit",
+      "type": "placeholder"
+    }
+  ]
+}
