@@ -1,0 +1,151 @@
+.project-details-container {
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+  height: 75%;
+  color: #757B7F;
+  display: flex;
+  flex-wrap: wrap;
+
+  h1 {
+    color: #E5E1DE;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    font-weight: 500;
+    color: #E5E1DE;
+    text-decoration: inherit;
+  }
+  a:hover {
+    border-color: #E5E1DE;
+  }
+  
+  button:hover {
+    border-color: #757B7F;
+  }
+  
+  .snackcontainer {
+    min-height: 540px;
+    height: 100%;
+    width: 285px;
+    overflow: hidden;
+  }
+  
+  iframe{
+    width: 625px;
+    margin-left: -339px;
+    background-color: #191e21 !important;
+  }
+  
+  
+  .project-images {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .thumbnails-container {
+    display: flex;
+    height: 150px;
+    margin-top: 3rem;
+    overflow-x: auto;
+  }
+
+  .thumbnails-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .thumbnail {
+    width: 200px;
+    margin-right: 20px;
+
+    img {
+      height: 100%;
+      object-fit: contain;
+      width: 200px;
+    }
+
+    &.active {
+      opacity: 0.5;
+    }
+  }
+  .project-info {
+    width: 40%;
+    }
+    
+    .project-info button {
+        margin: 15px;
+        display: block;
+        border-radius: 50%;
+        /* border: 1px solid #757B7F; */
+        padding: 0;
+        height: 40px;
+        width: 40px;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: #272E32;
+        cursor: pointer;
+        transition: border-color 0.25s;
+        float: right;
+        line-height: 0px;
+  
+    }
+    
+    .arrow {
+      border: solid #E5E1DE;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+    
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+
+    .description {
+      margin-bottom: 2rem;
+    }
+
+    .subTitle {
+      font-weight: bold;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  .project-details-container {
+ height: 100%;
+
+  .project-images {
+    width: 100%;
+    padding: 0;
+  }
+
+  .project-info {
+  width: 100%;
+  h1 {
+    font-size: 2rem;
+    font-size: 2rem;
+    padding: 15px;
+    margin-bottom: 0;
+  }
+}
+
+}
+
+
+
+
+}
+
+

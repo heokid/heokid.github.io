@@ -1,0 +1,67 @@
+body{
+  background-color: #191e21;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  color: #E5E1DE;
+  margin: 0;
+  padding: 0;
+}
+
+
+.mainContainer {
+  display: flex;
+ flex: 1;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+
+
+.projectContainer {
+  width: 80%;
+  justify-content: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.snackcontainer {
+  height: 100%;
+  width: 285px;
+  overflow: hidden;
+}
+
+iframe{
+  width: 625px;
+  /* margin-left: -339px; */
+  background-color: #191e21 !important;
+}
+
+
+@media only screen and (max-width: 640px) {
+
+  .mainContainer {
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.projectContainer{
+  margin-top: 25px;
+  margin-bottom: 70px;
+  width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+header {
+  h1 {
+    color: #e5e1de;
+    padding-left: 5px;
+    margin: 0px;
+    text-align: left;
+    line-height: 1;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+}
+
+  @media only screen and (max-width: 640px) {
+    header {
+      display: flex;
+      justify-content: center;
+      align-content: end;
+      margin-top: 20px;
+    }
+  
+  }
